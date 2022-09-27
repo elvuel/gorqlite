@@ -1,3 +1,3 @@
-module github.com/rqlite/gorqlite
+module github.com/elvuel/gorqlite
 
 go 1.17

@@ -320,3 +320,11 @@ func (conn *Connection) initConnection(url string) error {
 
 	return nil
 }
+
+func (conn *Connection) Client() http.Client {
+	return conn.client
+}
+
+func (conn *Connection) WithClient(client http.Client) {
+	conn.client = client
+}
